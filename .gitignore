@@ -1,1 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.conda/
+*.conda
+
+# --- IDE/editor cruft ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.out
+
+# --- SQLite databases ---
 *.db
+price_history.db
+
+# --- Private config ---
+products.yaml
+config.yaml
+*.secret
+*.key
