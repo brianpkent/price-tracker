@@ -12,3 +12,4 @@ products:
     url: "https://www.example.com/product2"
     selector: "regex:\"finalPrice\"\\s*:\\s*\\{\"amount\"\\s*:\\s*([0-9.]+)\\}"
     target_price: 49.99
+
